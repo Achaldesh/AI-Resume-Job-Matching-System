@@ -1,0 +1,4 @@
+Python developer
+Machine learning
+Data analytics
+Pandas numpy scikit-learn

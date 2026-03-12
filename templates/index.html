@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Resume Job Matcher</title>
+</head>
+
+<body>
+
+<h2>AI Resume Job Matching System</h2>
+
+<form method="post">
+
+<textarea name="job" rows="6" cols="60"
+placeholder="Enter Job Description"></textarea>
+
+<br><br>
+
+<button type="submit">Match Resume</button>
+
+</form>
+
+{% if scores %}
+
+<h3>Matching Scores</h3>
+
+<ul>
+
+<li>Resume 1 Score : {{scores[0]}}</li>
+<li>Resume 2 Score : {{scores[1]}}</li>
+
+</ul>
+
+{% endif %}
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from matcher import match_resumes
 
+
 app = Flask(__name__)
 
 resumes = [

@@ -1,4 +1,6 @@
 Python developer
 Machine learning
+deep learning
 Data analytics
 Pandas numpy scikit-learn
+AI 

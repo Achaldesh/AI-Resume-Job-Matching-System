@@ -2,3 +2,4 @@ Java developer
 Spring boot
 Backend development
 REST APIs
+Fast API 

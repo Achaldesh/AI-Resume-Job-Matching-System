@@ -2,6 +2,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import spacy
 
+
 nlp = spacy.load("en_core_web_sm")
 
 def preprocess(text):
